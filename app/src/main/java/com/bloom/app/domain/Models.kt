@@ -51,7 +51,7 @@ data class Settings(
     val biometricEnabled: Boolean = false,
     val pinSalt: String? = null,
     val pinHash: String? = null,
-    val hideInRecents: Boolean = true,
+    val hideInRecents: Boolean = false,
     val discreetWidgets: Boolean = false,
     // Reminders
     val periodReminder: Boolean = false,

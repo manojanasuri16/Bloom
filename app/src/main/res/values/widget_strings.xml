@@ -1,0 +1,37 @@
+<resources>
+    <string name="widget_app_name">Bloom</string>
+    <string name="widget_name_small">Bloom · Small</string>
+    <string name="widget_name_medium">Bloom · Medium</string>
+    <string name="widget_name_large">Bloom · Large</string>
+    <string name="widget_desc_small">Your cycle day and next period at a glance.</string>
+    <string name="widget_desc_medium">Cycle day, predicted window and a 7-day outlook.</string>
+    <string name="widget_desc_large">Two-week outlook, upcoming dates and a quick Log today button.</string>
+
+    <string name="widget_get_started">Open Bloom to get started</string>
+    <string name="widget_discreet_hint">Tap to open</string>
+    <string name="widget_log_today">Log today</string>
+    <string name="widget_period_day">Day %1$d of period</string>
+    <string name="widget_period_today">Period expected today</string>
+    <string name="widget_period_any_day">Period expected any day</string>
+    <string name="widget_expected">Expected %1$s</string>
+    <string name="widget_next_period">Next period: %1$s</string>
+    <string name="widget_next_ovulation">Next ovulation: %1$s</string>
+    <string name="widget_ovulation_today">Ovulation likely today</string>
+    <string name="widget_fertile_now">Fertile window now</string>
+    <string name="widget_ovulation_around">Ovulation around %1$s</string>
+    <string name="widget_phase_line">%1$s phase</string>
+    <string name="widget_legend_period">Period</string>
+    <string name="widget_legend_predicted">Predicted</string>
+    <string name="widget_legend_fertile">Fertile</string>
+    <string name="widget_cd_ring">Cycle progress</string>
+    <string name="widget_cd_days">Upcoming days</string>
+
+    <plurals name="widget_period_in_days">
+        <item quantity="one">Period in %1$d day</item>
+        <item quantity="other">Period in %1$d days</item>
+    </plurals>
+    <plurals name="widget_days_late">
+        <item quantity="one">%1$d day late</item>
+        <item quantity="other">%1$d days late</item>
+    </plurals>
+</resources>
