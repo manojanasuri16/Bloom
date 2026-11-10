@@ -6,6 +6,9 @@
          notification permission, requested at the moment the user turns reminders on. -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
+    <!-- Pulled in by WorkManager but unused (no network constraints anywhere). -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" tools:node="remove" />
+
     <application
         android:name=".BloomApp"
         android:allowBackup="false"

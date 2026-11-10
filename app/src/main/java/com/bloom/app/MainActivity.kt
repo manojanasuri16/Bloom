@@ -19,6 +19,8 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -144,6 +146,9 @@ private fun Shell(vm: AppViewModel, openLogRequested: Boolean, consumed: () -> U
                 Tab.SETTINGS -> SettingsScreen(vm)
             }
         }
+        // Soft scroll-edge fade instead of a hard divider where content slides under the floating bar.
+        Box(Modifier.align(Alignment.BottomCenter).fillMaxWidth().height(130.dp).background(
+            androidx.compose.ui.graphics.Brush.verticalGradient(listOf(androidx.compose.ui.graphics.Color.Transparent, Bloom.colors.cream))))
         TabBar(tab, Modifier.align(Alignment.BottomCenter)) { tab = it }
     }
     logDate?.let { LogSheet(vm, it) { logDate = null } }

@@ -1,0 +1,22 @@
+{
+  "slug": "bloom",
+  "kind": "android",
+  "name": "Bloom",
+  "tagline": "A private, beautiful cycle tracker. Fully offline, encrypted, no account, no ads.",
+  "category": "Health & Fitness",
+  "developer": "Manoj Anasuri",
+  "accentColor": "#c45a78",
+  "packageName": "com.bloom.app",
+  "repo": "manojanasuri16/Bloom",
+  "visibility": "public",
+  "icon": "appdrop/icon.png",
+  "screenshots": [
+    "appdrop/screenshots/1_today.png",
+    "appdrop/screenshots/2_calendar.png",
+    "appdrop/screenshots/3_log.png",
+    "appdrop/screenshots/4_dark.png",
+    "appdrop/screenshots/5_settings.png"
+  ],
+  "descriptionFile": "appdrop/description.md",
+  "assetPattern": "Bloom-*.apk"
+}

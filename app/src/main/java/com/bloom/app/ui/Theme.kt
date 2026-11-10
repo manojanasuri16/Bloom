@@ -103,7 +103,7 @@ private val BloomShapes = Shapes(
 fun BloomTheme(darkOverride: Boolean? = null, content: @Composable () -> Unit) {
     val dark = darkOverride ?: isSystemInDarkTheme()
     val c = if (dark) DarkBloom else LightBloom
-    CompositionLocalProvider(LocalBloom provides c) {
+    CompositionLocalProvider(LocalBloom provides c, androidx.compose.material3.LocalContentColor provides c.ink) {
         MaterialTheme(colorScheme = scheme(c), typography = BloomType, shapes = BloomShapes, content = content)
     }
 }
