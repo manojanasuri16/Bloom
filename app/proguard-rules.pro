@@ -1,0 +1,4 @@
+-keepattributes *Annotation*, InnerClasses
+-keepclassmembers class com.bloom.app.** { *** Companion; }
+-keepclasseswithmembers class com.bloom.app.** { kotlinx.serialization.KSerializer serializer(...); }
+-keep,includedescriptorclasses class com.bloom.app.**$$serializer { *; }
