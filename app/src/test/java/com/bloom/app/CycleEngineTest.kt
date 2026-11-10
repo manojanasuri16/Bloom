@@ -90,7 +90,7 @@ class CycleEngineTest {
     @Test fun ovulationIsLutealDaysBeforeNextPeriod() {
         val e = CycleEngine(regular(6, 28), s, 1000L + 5 * 28 + 2)
         val f = e.forecasts(1)[0]
-        assertEquals(f.periodStart - 14, f.ovulation)
+        assertEquals(f.periodStart - 13, f.ovulation)
         assertEquals(f.ovulation - 5, f.fertileStart)
         assertEquals(f.ovulation + 1, f.fertileEnd)
         assertTrue(f.ovulationWindowStart < f.ovulation && f.ovulationWindowEnd > f.ovulation)
@@ -114,8 +114,8 @@ class CycleEngineTest {
         val e = CycleEngine(regular(4, 28), s, 1000L + 3 * 28 + 5)
         assertEquals(Phase.MENSTRUAL, e.dayInfo(1000).phase)
         assertEquals(Phase.FOLLICULAR, e.dayInfo(1007).phase)
-        assertEquals(Phase.OVULATION, e.dayInfo(1000 + 28 - 14).phase)
-        assertEquals(Phase.FERTILE, e.dayInfo(1000 + 28 - 14 - 3).phase)
+        assertEquals(Phase.OVULATION, e.dayInfo(1000 + 28 - 13).phase)
+        assertEquals(Phase.FERTILE, e.dayInfo(1000 + 28 - 13 - 3).phase)
         assertEquals(Phase.LUTEAL, e.dayInfo(1000 + 24).phase)
         assertEquals(1, e.dayInfo(1000).cycleDay)
     }

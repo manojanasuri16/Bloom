@@ -41,8 +41,8 @@ data class Settings(
     val onboardingDone: Boolean = false,
     val defaultCycleLength: Int = 28,
     val defaultPeriodLength: Int = 5,
-    /** Days between ovulation and the next period; 14 unless personalised from BBT. */
-    val lutealLength: Int = 14,
+    /** Days between ovulation and the next period; 14 unless personalised from BBT (population mean ≈12.4, Bull 2019). */
+    val lutealLength: Int = 13,
     val theme: String = ThemeMode.SYSTEM.name,
     val fahrenheit: Boolean = false,
     val weekStartsMonday: Boolean = false,
