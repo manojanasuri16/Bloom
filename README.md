@@ -21,7 +21,7 @@ A private, beautiful menstrual cycle tracker for Android. **100% offline** — n
 Kotlin 2.1, Jetpack Compose, Glance 1.1, WorkManager; min SDK 26, target 36.
 
 ## Install
-Get the signed APK from [AppDrop](https://appdrop-store.vercel.app/apps/bloom) (or the Releases page) and open it on your Android 8.0+ phone. Releases are signed with a private key, so build-it-yourself APKs won't update in place over them.
+Get the signed APK from [AppDrop](https://appdrop-store.vercel.app/apps/bloom) (or the Releases page) and open it on your Android 8.0+ phone. Official releases are signed with a private key, so APKs you build yourself won't update in place over them.
 
 ## Docs
 - [`docs/RESEARCH.md`](docs/RESEARCH.md) — competitor, science and platform research.
@@ -30,4 +30,6 @@ Get the signed APK from [AppDrop](https://appdrop-store.vercel.app/apps/bloom) (
 *Bloom's predictions are statistical estimates, not medical advice, and must not be used for contraception.*
 
 ## License
-No license has been chosen yet, so all rights are reserved. The source is public to read; ask before reusing it.
+Bloom is free and open-source software under the [GNU GPL v3](LICENSE) (or later). You may use, study, modify and share it, provided derivative works stay open under the same license. This protects users from closed forks that add tracking or ads.
+
+Contributions are welcome via issues and pull requests. Release signing keys are not part of the repo, so APKs you build yourself will not update over the official ones.

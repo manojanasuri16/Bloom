@@ -11,4 +11,6 @@ No account. No cloud. No analytics. No ads. Bloom doesn't even have the internet
 - **Your data, portable** — complete JSON export, CSV export, password-encrypted backups, and restore with merge or replace.
 - Light and dark themes, optional neutral reminders.
 
+**Free and open source** (GPL-3.0). Read, audit or contribute: github.com/manojanasuri16/Bloom
+
 *Bloom's predictions are statistical estimates, not medical advice, and must not be used for contraception.*
