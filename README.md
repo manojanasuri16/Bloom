@@ -2,6 +2,8 @@
 
 A private, beautiful menstrual cycle tracker for Android. **100% offline** — no account, no cloud, no analytics, no ads, and no `INTERNET` permission, so it is technically unable to send your data anywhere.
 
+**[⬇ Download the latest APK on AppDrop](https://appdrop-store.vercel.app/apps/bloom)** · [Direct download](https://appdrop-store.vercel.app/d/bloom) · [GitHub Releases](https://github.com/manojanasuri16/Bloom/releases)
+
 ## Features
 - **Tracking:** flow, symptoms, mood, discharge, intimacy, basal temperature and notes; everything autosaves.
 - **Predictions with honest uncertainty:** the next period is a *window* (with a confidence tier), never a false-precision date. Fertile window and ovulation are estimates with their own range. Temperature logs (3-over-6 rule) confirm ovulation and personalise your luteal phase.
@@ -18,8 +20,14 @@ A private, beautiful menstrual cycle tracker for Android. **100% offline** — n
 ```
 Kotlin 2.1, Jetpack Compose, Glance 1.1, WorkManager; min SDK 26, target 36.
 
+## Install
+Get the signed APK from [AppDrop](https://appdrop-store.vercel.app/apps/bloom) (or the Releases page) and open it on your Android 8.0+ phone. Releases are signed with a private key, so build-it-yourself APKs won't update in place over them.
+
 ## Docs
 - [`docs/RESEARCH.md`](docs/RESEARCH.md) — competitor, science and platform research.
 - [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) — design decisions, algorithm, security model.
 
 *Bloom's predictions are statistical estimates, not medical advice, and must not be used for contraception.*
+
+## License
+No license has been chosen yet, so all rights are reserved. The source is public to read; ask before reusing it.
